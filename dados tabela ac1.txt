@@ -1,3 +1,13 @@
+Nome camisetas                   Descrição
+- Stack Overflow                 salvador
+- Java                           passar raiva
+- irracional e indefinido        números mat
+- 99 little bugs                 toda atividade
+- Ah! the element of surprise    tab periodica
+- Declare variables not war      amor
+- i love programming             é mentira
+- logo java                      javinha
+- logo my sql                    dor de cabeça
 
 Datas Fab
 2018-09-06
