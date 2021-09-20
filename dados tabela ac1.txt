@@ -1,0 +1,50 @@
+
+Datas Fab
+2018-09-06
+2017-12-04
+2015-01-07
+2016-08-12
+2017-04-29
+2019-06-26
+2019-02-25
+2018-09-21
+2017-08-16
+2019-02-19
+
+Preço Custo
+
+36.53
+48.05
+47.71
+49.21
+79.13
+34.20
+46.02
+77.13
+49.45
+68.46
+
+Preço Venda
+126.80
+183.83
+89.07
+76.77
+174.88
+181.63
+95.47
+112.71
+60.90
+180.84
+
+marcas
+
+redbubble  redbubble@ainixx.xyz
+crazymonk  crazymonk@godobolet.buzz
+teeplus    teeplus@keralaairport.net
+teepublic  teepublic@antawii.com
+
+tecidos
+poliester
+malha
+cetim
+oxford
