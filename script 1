@@ -1,0 +1,44 @@
+/*criação banco*/
+create database empresageek
+default character set utf8
+default collate utf8_general_ci;
+
+use empresageek;
+
+
+/*criação tabelas*/
+
+create table produto(
+id int not null AUTO_INCREMENT,
+nome varchar(30) not null,
+descricao varchar(120),
+data_fab date,
+preco_venda decimal(5,2),
+preco_custo decimal(5,2),
+marca varchar(30) ,
+tamanho enum('P', 'M','G') default 'M',
+tecido varchar(20),
+primary key (id)
+) default charset utf8;
+
+create table marca (
+nome_marca varchar(50),
+email varchar(120),
+pais_marca varchar(20)
+) default charset utf8;
+
+/*inserts das camisetas*/
+insert into produto
+(id, nome, descricao, data_fab, preco_venda, preco_custo, marca, tamanho, tecido)
+values
+('Stack Overflow','salvador','2018-09-06', '126.80', '36.53', 'redbubble', 'P', 'poliéster'),
+('Java','passar raiva','2017-12-04', '183.83', '48.05', 'crazymonk', 'M', 'malha'),
+('irracional e indefinido','números mat','2015-01-07', '89.07', '47.071', 'teeplus', 'G', 'cetim'),
+('99 little bugs','toda atividade','2016-08-12','76.77', '49.21', 'teepublic', 'P', 'oxford'),
+('Ah! the element of surprise','tab periódica','2017-04-29', '174.88', '79.13', 'redbubble', 'M', 'poliéster'),
+('Declare variables not war','amor','2019-06-26', '181.63', '46.02', 'crazymonk', 'G', 'malha'),
+('I love programming','ás vezes','2019-02-25', '95.47', '77.13', 'teeplus', 'P', 'cetim'),
+('logo java','javinha','2018-09-21', '112.71', '49.45', 'teepublic', 'M', 'oxford'),
+('logo mysql','dor de cabeça','2017-08-16', '199.80', '68.46', 'redbubble', 'G', 'poliéster'),
+('logo python','esse é firmeza','2019-02-19', '180.84', '95.37', 'crazymonk', 'P', 'malha');
+
